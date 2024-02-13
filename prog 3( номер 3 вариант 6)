@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+    
+    int x = 2;
+    int y = 2;
+
+    
+    std::cout << "Значение y при x = 2 для функции y = 2: " << y << std::endl;
+
+    return 0;
+}
