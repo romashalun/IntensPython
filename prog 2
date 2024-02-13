@@ -1,0 +1,16 @@
+def nod(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+
+a = int(input("Введите числитель a: "))
+b = int(input("Введите знаменатель b: "))
+
+naibolshi_delitel = nod(a, b)
+
+p = a // naibolshi_delitel
+q = b // naibolshi_delitel
+
+
+print(f"Сокращенная дробь: {p}/{q}")
